@@ -1,0 +1,416 @@
+{
+  "stt": {
+    "source": "Russian SAPI speech, offline frames, no microphone",
+    "vad_load_ms": 728.4480000016629,
+    "vosk_load_ms": 1665.2614000013273,
+    "stt_finalize": {
+      "n": 5,
+      "mean_ms": 18.11027999938233,
+      "p50_ms": 14.728899997862754,
+      "p95_ms": 28.70548000137205,
+      "min_ms": 14.063799997529713,
+      "max_ms": 31.98740000152611
+    },
+    "vad_and_stt_compute_per_utterance": {
+      "n": 5,
+      "mean_ms": 395.9276800058433,
+      "p50_ms": 228.51369999261806,
+      "p95_ms": 924.0892200148663,
+      "min_ms": 191.68809998882352,
+      "max_ms": 1095.1674000134517
+    },
+    "recognized": [
+      "сколько будет два плюс два",
+      "сколько будет два плюс два",
+      "сколько будет два плюс два",
+      "сколько будет два плюс два",
+      "сколько будет два плюс два"
+    ],
+    "configured_endpoint_wait_ms": 672
+  },
+  "native_audio": {
+    "volume": 0,
+    "tts_sapi": {
+      "n": 5,
+      "mean_ms": 70.49784000046202,
+      "p50_ms": 64.17330000112997,
+      "p95_ms": 93.7512800010154,
+      "min_ms": 53.4254999984114,
+      "max_ms": 99.2182000009052
+    },
+    "pcm_to_qaudiosink_active_ms_cold_then_warm": [
+      2074.5537000002514,
+      66.57970000014757,
+      115.8618999979808,
+      117.5626000003831,
+      111.08579999927315
+    ],
+    "cancel_response_to_stopped": {
+      "n": 5,
+      "mean_ms": 0.31718000027467497,
+      "p50_ms": 0.1297999988310039,
+      "p95_ms": 0.9191200013447085,
+      "min_ms": 0.08710000111022964,
+      "max_ms": 1.114800001232652
+    },
+    "stop_checks": [
+      {
+        "state_after_stop": "StoppedState",
+        "pcm_queue_size": 0,
+        "buffer_released": true,
+        "active_token_cleared": true
+      },
+      {
+        "state_after_stop": "StoppedState",
+        "pcm_queue_size": 0,
+        "buffer_released": true,
+        "active_token_cleared": true
+      },
+      {
+        "state_after_stop": "StoppedState",
+        "pcm_queue_size": 0,
+        "buffer_released": true,
+        "active_token_cleared": true
+      },
+      {
+        "state_after_stop": "StoppedState",
+        "pcm_queue_size": 0,
+        "buffer_released": true,
+        "active_token_cleared": true
+      },
+      {
+        "state_after_stop": "StoppedState",
+        "pcm_queue_size": 0,
+        "buffer_released": true,
+        "active_token_cleared": true
+      }
+    ],
+    "errors": []
+  },
+  "voice_interruptions": {
+    "Стоп;headphones=False": {
+      "cancel_called": false,
+      "playback_stop_called": false
+    },
+    "Новый вопрос;headphones=True": {
+      "cancel_called": false,
+      "playback_stop_called": false
+    },
+    "отключайся;headphones=False": {
+      "cancel_called": false,
+      "playback_stop_called": false
+    },
+    "отключайся;headphones=True": {
+      "cancel_called": true,
+      "playback_stop_called": true
+    }
+  },
+  "live_replay_diagnostic_sapi": [
+    {
+      "source": "real-time replay of synthetic Russian speech; real Silero/Vosk/Gemini/SAPI/QAudioSink",
+      "synthesizer_override": "sapi (configured ElevenLabs has no key)",
+      "recognized": "сколько будет два плюс два",
+      "audio_active": true,
+      "metrics": {
+        "cold_vad": {
+          "count": 1,
+          "mean_ms": 89.68549999917741,
+          "p50_ms": 89.68549999917741,
+          "p95_ms": 89.68549999917741
+        },
+        "cold_stt": {
+          "count": 1,
+          "mean_ms": 1175.734200001898,
+          "p50_ms": 1175.734200001898,
+          "p95_ms": 1175.734200001898
+        },
+        "audio_queue": {
+          "count": 137,
+          "mean_ms": 26.251737226192063,
+          "p50_ms": 0.24219999977503903,
+          "p95_ms": 190.02648000096076
+        },
+        "vad": {
+          "count": 137,
+          "mean_ms": 1.2262802920038693,
+          "p50_ms": 1.2050000004819594,
+          "p95_ms": 1.7623799998546017
+        },
+        "stt_finalize": {
+          "count": 1,
+          "mean_ms": 16.33890000084648,
+          "p50_ms": 16.33890000084648,
+          "p95_ms": 16.33890000084648
+        },
+        "endpoint_wait": {
+          "count": 1,
+          "mean_ms": 677.8597999982594,
+          "p50_ms": 677.8597999982594,
+          "p95_ms": 677.8597999982594
+        },
+        "speech_end_to_text": {
+          "count": 1,
+          "mean_ms": 697.001900000032,
+          "p50_ms": 697.001900000032,
+          "p95_ms": 697.001900000032
+        },
+        "disfluency_filter": {
+          "count": 1,
+          "mean_ms": 0.0839000022097025,
+          "p50_ms": 0.0839000022097025,
+          "p95_ms": 0.0839000022097025
+        },
+        "llm_first": {
+          "count": 1,
+          "mean_ms": 1484.7357999969972,
+          "p50_ms": 1484.7357999969972,
+          "p95_ms": 1484.7357999969972
+        },
+        "llm_first_sentence": {
+          "count": 1,
+          "mean_ms": 1560.044999998354,
+          "p50_ms": 1560.044999998354,
+          "p95_ms": 1560.044999998354
+        },
+        "llm_full": {
+          "count": 1,
+          "mean_ms": 1566.820199997892,
+          "p50_ms": 1566.820199997892,
+          "p95_ms": 1566.820199997892
+        },
+        "tts": {
+          "count": 1,
+          "mean_ms": 121.61660000128904,
+          "p50_ms": 121.61660000128904,
+          "p95_ms": 121.61660000128904
+        },
+        "llm_to_first_pcm": {
+          "count": 1,
+          "mean_ms": 1681.756599999062,
+          "p50_ms": 1681.756599999062,
+          "p95_ms": 1681.756599999062
+        },
+        "pcm_to_playback": {
+          "count": 1,
+          "mean_ms": 194.95970000207308,
+          "p50_ms": 194.95970000207308,
+          "p95_ms": 194.95970000207308
+        },
+        "speech_end_to_voice": {
+          "count": 1,
+          "mean_ms": 2577.0121999994444,
+          "p50_ms": 2577.0121999994444,
+          "p95_ms": 2577.0121999994444
+        }
+      },
+      "errors": [],
+      "completed": true,
+      "llm_first_chunk_to_audio_active_ms": 391.9873999984702,
+      "workers_closed": true
+    },
+    {
+      "source": "real-time replay of synthetic Russian speech; real Silero/Vosk/Gemini/SAPI/QAudioSink",
+      "synthesizer_override": "sapi (configured ElevenLabs has no key)",
+      "recognized": "сколько будет два плюс два",
+      "audio_active": true,
+      "metrics": {
+        "cold_vad": {
+          "count": 1,
+          "mean_ms": 154.55409999776748,
+          "p50_ms": 154.55409999776748,
+          "p95_ms": 154.55409999776748
+        },
+        "cold_stt": {
+          "count": 1,
+          "mean_ms": 1160.323400003108,
+          "p50_ms": 1160.323400003108,
+          "p95_ms": 1160.323400003108
+        },
+        "audio_queue": {
+          "count": 137,
+          "mean_ms": 41.04234233571758,
+          "p50_ms": 0.2795000000332948,
+          "p95_ms": 273.05861999921007
+        },
+        "vad": {
+          "count": 137,
+          "mean_ms": 1.2855343065495657,
+          "p50_ms": 1.3663999998243526,
+          "p95_ms": 1.7674000024271663
+        },
+        "stt_finalize": {
+          "count": 1,
+          "mean_ms": 20.883299999695737,
+          "p50_ms": 20.883299999695737,
+          "p95_ms": 20.883299999695737
+        },
+        "endpoint_wait": {
+          "count": 1,
+          "mean_ms": 669.76159999831,
+          "p50_ms": 669.76159999831,
+          "p95_ms": 669.76159999831
+        },
+        "speech_end_to_text": {
+          "count": 1,
+          "mean_ms": 693.3105999996769,
+          "p50_ms": 693.3105999996769,
+          "p95_ms": 693.3105999996769
+        },
+        "disfluency_filter": {
+          "count": 1,
+          "mean_ms": 0.11340000128257088,
+          "p50_ms": 0.11340000128257088,
+          "p95_ms": 0.11340000128257088
+        },
+        "llm_first": {
+          "count": 1,
+          "mean_ms": 1319.4259000010788,
+          "p50_ms": 1319.4259000010788,
+          "p95_ms": 1319.4259000010788
+        },
+        "llm_first_sentence": {
+          "count": 1,
+          "mean_ms": 1451.7549000011059,
+          "p50_ms": 1451.7549000011059,
+          "p95_ms": 1451.7549000011059
+        },
+        "llm_full": {
+          "count": 1,
+          "mean_ms": 1482.945200001268,
+          "p50_ms": 1482.945200001268,
+          "p95_ms": 1482.945200001268
+        },
+        "tts": {
+          "count": 1,
+          "mean_ms": 117.73249999896507,
+          "p50_ms": 117.73249999896507,
+          "p95_ms": 117.73249999896507
+        },
+        "llm_to_first_pcm": {
+          "count": 1,
+          "mean_ms": 1569.736000001285,
+          "p50_ms": 1569.736000001285,
+          "p95_ms": 1569.736000001285
+        },
+        "pcm_to_playback": {
+          "count": 1,
+          "mean_ms": 346.4855999991414,
+          "p50_ms": 346.4855999991414,
+          "p95_ms": 346.4855999991414
+        },
+        "speech_end_to_voice": {
+          "count": 1,
+          "mean_ms": 2612.1032999981253,
+          "p50_ms": 2612.1032999981253,
+          "p95_ms": 2612.1032999981253
+        }
+      },
+      "errors": [],
+      "completed": true,
+      "llm_first_chunk_to_audio_active_ms": 596.8078999976569,
+      "workers_closed": true
+    },
+    {
+      "source": "real-time replay of synthetic Russian speech; real Silero/Vosk/Gemini/SAPI/QAudioSink",
+      "synthesizer_override": "sapi (configured ElevenLabs has no key)",
+      "recognized": "сколько будет два плюс два",
+      "audio_active": true,
+      "metrics": {
+        "cold_vad": {
+          "count": 1,
+          "mean_ms": 87.85500000158208,
+          "p50_ms": 87.85500000158208,
+          "p95_ms": 87.85500000158208
+        },
+        "cold_stt": {
+          "count": 1,
+          "mean_ms": 1217.7378999986104,
+          "p50_ms": 1217.7378999986104,
+          "p95_ms": 1217.7378999986104
+        },
+        "audio_queue": {
+          "count": 137,
+          "mean_ms": 34.87112481743148,
+          "p50_ms": 0.23080000028130598,
+          "p95_ms": 251.75951999917723
+        },
+        "vad": {
+          "count": 136,
+          "mean_ms": 1.215363970539543,
+          "p50_ms": 1.2912000001961133,
+          "p95_ms": 1.687650002168084
+        },
+        "stt_finalize": {
+          "count": 1,
+          "mean_ms": 16.31730000008247,
+          "p50_ms": 16.31730000008247,
+          "p95_ms": 16.31730000008247
+        },
+        "endpoint_wait": {
+          "count": 1,
+          "mean_ms": 678.0178000008164,
+          "p50_ms": 678.0178000008164,
+          "p95_ms": 678.0178000008164
+        },
+        "speech_end_to_text": {
+          "count": 1,
+          "mean_ms": 696.9315000023926,
+          "p50_ms": 696.9315000023926,
+          "p95_ms": 696.9315000023926
+        },
+        "disfluency_filter": {
+          "count": 1,
+          "mean_ms": 0.08429999797954224,
+          "p50_ms": 0.08429999797954224,
+          "p95_ms": 0.08429999797954224
+        },
+        "llm_first": {
+          "count": 1,
+          "mean_ms": 1083.4533000015654,
+          "p50_ms": 1083.4533000015654,
+          "p95_ms": 1083.4533000015654
+        },
+        "llm_first_sentence": {
+          "count": 1,
+          "mean_ms": 1152.6048999985505,
+          "p50_ms": 1152.6048999985505,
+          "p95_ms": 1152.6048999985505
+        },
+        "llm_full": {
+          "count": 1,
+          "mean_ms": 1159.341200000199,
+          "p50_ms": 1159.341200000199,
+          "p95_ms": 1159.341200000199
+        },
+        "tts": {
+          "count": 1,
+          "mean_ms": 83.05960000143386,
+          "p50_ms": 83.05960000143386,
+          "p95_ms": 83.05960000143386
+        },
+        "llm_to_first_pcm": {
+          "count": 1,
+          "mean_ms": 1235.8568999989075,
+          "p50_ms": 1235.8568999989075,
+          "p95_ms": 1235.8568999989075
+        },
+        "pcm_to_playback": {
+          "count": 1,
+          "mean_ms": 201.630200001091,
+          "p50_ms": 201.630200001091,
+          "p95_ms": 201.630200001091
+        },
+        "speech_end_to_voice": {
+          "count": 1,
+          "mean_ms": 2136.106400001154,
+          "p50_ms": 2136.106400001154,
+          "p95_ms": 2136.106400001154
+        }
+      },
+      "errors": [],
+      "completed": true,
+      "llm_first_chunk_to_audio_active_ms": 354.04510000080336,
+      "workers_closed": true
+    }
+  ]
+}

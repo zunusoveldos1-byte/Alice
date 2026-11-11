@@ -1,0 +1,40 @@
+{
+  "provider": "ollama",
+  "model": "qwen3:1.7b",
+  "tts": "silero",
+  "silence_ms": 650,
+  "actual_llm_and_tts": true,
+  "output_volume": 0,
+  "acoustic_first_sound_measured": false,
+  "microphone_used": false,
+  "rows": [
+    {
+      "question": "Привет! Ответь одним коротким предложением.",
+      "answer": "Привет! Как могу помочь?",
+      "completed": true,
+      "errors": [],
+      "first_active_ms": 15338.583500000823,
+      "request_to_completion_ms": 19001.032000000123,
+      "submitted": true
+    },
+    {
+      "question": "Сколько будет два плюс два? Ответь кратко.",
+      "answer": "Два плюс два равно четыре.",
+      "completed": true,
+      "errors": [],
+      "first_active_ms": 287.55110000201967,
+      "request_to_completion_ms": 2229.290300005232,
+      "submitted": true
+    },
+    {
+      "question": "Назови первый месяц года одним словом.",
+      "answer": "Январь.",
+      "completed": true,
+      "errors": [],
+      "first_active_ms": 159.79849999712314,
+      "request_to_completion_ms": 983.4604999996372,
+      "submitted": true
+    }
+  ],
+  "services_closed": true
+}

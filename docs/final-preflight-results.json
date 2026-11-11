@@ -1,0 +1,110 @@
+{
+  "provider": "gemini",
+  "synthesizer": "elevenlabs",
+  "model": "gemini-2.5-flash",
+  "silence_ms": 650,
+  "headphones_policy": true,
+  "elevenlabs_voice_configured": false,
+  "credentials": {
+    "gemini": {
+      "present": true
+    },
+    "elevenlabs": {
+      "present": false
+    }
+  },
+  "output_devices": [
+    {
+      "description": "Динамики (Lenovo Services E07)",
+      "default": true
+    },
+    {
+      "description": "Динамики (2- Realtek(R) Audio)",
+      "default": false
+    }
+  ],
+  "input_devices": [
+    {
+      "index": 0,
+      "name": "Переназначение звуковых устр. - Input",
+      "channels": 2
+    },
+    {
+      "index": 1,
+      "name": "Микрофон (Lenovo Services E07)",
+      "channels": 1
+    },
+    {
+      "index": 2,
+      "name": "Набор микрофонов (2- Realtek(R)",
+      "channels": 2
+    },
+    {
+      "index": 6,
+      "name": "Первичный драйвер записи звука",
+      "channels": 2
+    },
+    {
+      "index": 7,
+      "name": "Микрофон (Lenovo Services E07)",
+      "channels": 1
+    },
+    {
+      "index": 8,
+      "name": "Набор микрофонов (2- Realtek(R) Audio)",
+      "channels": 2
+    },
+    {
+      "index": 14,
+      "name": "Микрофон (Lenovo Services E07)",
+      "channels": 2
+    },
+    {
+      "index": 15,
+      "name": "Набор микрофонов (2- Realtek(R) Audio)",
+      "channels": 2
+    },
+    {
+      "index": 17,
+      "name": "Микрофон (Realtek HD Audio Mic input)",
+      "channels": 2
+    },
+    {
+      "index": 20,
+      "name": "Динамик ПК (Realtek HD Audio output with SST)",
+      "channels": 2
+    },
+    {
+      "index": 23,
+      "name": "Динамик ПК (Realtek HD Audio 2nd output with SST)",
+      "channels": 2
+    },
+    {
+      "index": 24,
+      "name": "Набор микрофонов (Realtek HD Audio Mic Array input)",
+      "channels": 2
+    },
+    {
+      "index": 25,
+      "name": "Стерео микшер (Realtek HD Audio Stereo input)",
+      "channels": 2
+    },
+    {
+      "index": 28,
+      "name": "Микрофон (Lenovo Services E07)",
+      "channels": 1
+    }
+  ],
+  "default_input_index": 1,
+  "ollama": {
+    "status": 200,
+    "installed_models": []
+  },
+  "llm_probe": {
+    "success": false,
+    "error_type": "ProviderError",
+    "safe_message": "Модель отклонила запрос (HTTP 429). Проверьте модель, ключ и лимиты.",
+    "duration_ms": 827.3544999974547
+  },
+  "settings_unchanged": true
+}

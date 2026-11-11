@@ -1,0 +1,14 @@
+{
+  "native_backend": true,
+  "output_volume": 0,
+  "acoustic_measurement": false,
+  "errors": [],
+  "drained": true,
+  "packet_starts": 21,
+  "packet_finishes": 20,
+  "two_seconds_pcm_to_drain_ms": 2104.716699999699,
+  "same_sink_after_reset": true,
+  "sink_stopped": true,
+  "buffer_cleared": true,
+  "late_append_rejected": true
+}

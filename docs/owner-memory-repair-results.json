@@ -1,0 +1,23 @@
+{
+  "backup": "C:\\Users\\Элдос\\Desktop\\Alice\\data\\memory-backup-20261022-210845.sqlite3",
+  "owner_name": "Элдос",
+  "quarantined_record_ids": [
+    2,
+    1
+  ],
+  "preserved_other_records": 0,
+  "active_records": [
+    {
+      "id": 3,
+      "profile_id": "owner",
+      "category": "profile",
+      "field": "owner_name",
+      "value": "Элдос",
+      "source": "user_requirement",
+      "updated_at": "2026-10-22T21:08:45.638331+00:00",
+      "status": "confirmed",
+      "revision": 1
+    }
+  ],
+  "audit_entries": 3
+}

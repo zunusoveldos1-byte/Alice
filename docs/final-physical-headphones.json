@@ -1,0 +1,139 @@
+{
+  "mode": "headphones",
+  "real_microphone": true,
+  "real_sapi": true,
+  "real_llm": false,
+  "real_elevenlabs": false,
+  "audio_saved": false,
+  "acoustic_timing_measured": false,
+  "silence_ms": 650,
+  "rows": [
+    {
+      "case": 0,
+      "instruction": "Молчать: проверить собственную озвучку",
+      "mode": "headphones",
+      "physical_device_confirmed": true,
+      "output": "Динамики (Lenovo Services E07)",
+      "opened": 47026.0039161,
+      "cancellations": [
+        47032.6603609,
+        47034.3793663
+      ],
+      "native_stopped": [
+        47032.6803395
+      ],
+      "recognized": [
+        "так",
+        "стоп"
+      ],
+      "submitted": [
+        "так"
+      ],
+      "evidence": [
+        {
+          "text": "так",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47031.9444845
+        },
+        {
+          "text": "так",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47031.9444845
+        },
+        {
+          "text": "так",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47031.9444845
+        },
+        {
+          "text": "так",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47031.9444845
+        },
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47033.6445642
+        },
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47033.6445642
+        }
+      ],
+      "errors": [],
+      "audio_launch": 47028.3892356,
+      "ended": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": true
+    },
+    {
+      "case": 1,
+      "instruction": "Сказать: Стоп",
+      "mode": "headphones",
+      "physical_device_confirmed": true,
+      "output": "Динамики (Lenovo Services E07)",
+      "opened": 47061.9844888,
+      "cancellations": [
+        47068.5376103
+      ],
+      "native_stopped": [
+        47068.5425697,
+        47068.5425744
+      ],
+      "recognized": [
+        "стоп"
+      ],
+      "submitted": [],
+      "evidence": [
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47067.804385100004
+        },
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47067.804385100004
+        }
+      ],
+      "errors": [],
+      "audio_launch": 47062.9894907,
+      "ended": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": true
+    },
+    {
+      "case": 2,
+      "instruction": "Сказать: Найди погоду в Бишкеке",
+      "mode": "headphones",
+      "physical_device_confirmed": true,
+      "output": "Динамики (Lenovo Services E07)",
+      "opened": 47145.9762038,
+      "cancellations": [],
+      "native_stopped": [],
+      "recognized": [],
+      "submitted": [],
+      "evidence": [],
+      "errors": [],
+      "audio_launch": 47146.9804505,
+      "ended": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": false
+    }
+  ]
+}

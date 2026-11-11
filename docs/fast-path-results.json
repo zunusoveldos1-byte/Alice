@@ -1,0 +1,33 @@
+{
+  "real_silero": true,
+  "voice": "baya",
+  "playback": false,
+  "network_blocked": true,
+  "rows": [
+    {
+      "phrase": "привет",
+      "reply": "Привет, я слушаю.",
+      "first_pcm_ms": 72.66060000074503,
+      "llm_generation_calls": 0,
+      "desktop_queries": 0,
+      "pcm_packets": 1
+    },
+    {
+      "phrase": "спасибо",
+      "reply": "Пожалуйста, обращайся.",
+      "first_pcm_ms": 92.94190000036906,
+      "llm_generation_calls": 0,
+      "desktop_queries": 0,
+      "pcm_packets": 1
+    },
+    {
+      "phrase": "как дела",
+      "reply": "Всё хорошо, я готова помочь.",
+      "first_pcm_ms": 117.53629999839177,
+      "llm_generation_calls": 0,
+      "desktop_queries": 0,
+      "pcm_packets": 1
+    }
+  ],
+  "warmup_ms": 17115.09969999861
+}

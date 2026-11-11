@@ -1,0 +1,41 @@
+{
+  "mode": "baseline",
+  "real_models": true,
+  "microphone_opened": false,
+  "noise_processing": false,
+  "llm_used": false,
+  "rows": [
+    {
+      "cycle": 1,
+      "to_capture_open_ms": 1550.0785000003816,
+      "vad_ms": 274.26500000001397,
+      "stt_ms": 1275.728500000696,
+      "vad_loads": 1,
+      "vosk_loads": 1
+    },
+    {
+      "cycle": 2,
+      "to_capture_open_ms": 691.2037999991298,
+      "vad_ms": 51.81110000012268,
+      "stt_ms": 639.3315000004804,
+      "vad_loads": 1,
+      "vosk_loads": 1
+    },
+    {
+      "cycle": 3,
+      "to_capture_open_ms": 1108.4700999999768,
+      "vad_ms": 46.707099998457124,
+      "stt_ms": 1061.6847000001144,
+      "vad_loads": 1,
+      "vosk_loads": 1
+    },
+    {
+      "cycle": 4,
+      "to_capture_open_ms": 1583.5424999986571,
+      "vad_ms": 101.00229999989097,
+      "stt_ms": 1482.4619000009989,
+      "vad_loads": 1,
+      "vosk_loads": 1
+    }
+  ]
+}

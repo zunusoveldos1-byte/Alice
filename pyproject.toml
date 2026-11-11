@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alice-voice"
+version = "0.1.0"
+description = "Memory-only Russian voice dialog for Windows"
+requires-python = ">=3.11"
+dependencies = [
+  "PyQt6>=6.7,<7", "sounddevice>=0.5,<1", "numpy>=1.26,<3",
+  "onnxruntime>=1.18,<2", "vosk>=0.3.45,<0.4", "httpx>=0.27,<1",
+  "edge-tts>=7,<8", "miniaudio>=1.61,<2",
+  "mss>=10.2,<12", "Pillow>=11,<14",
+  "pywin32>=306; sys_platform == 'win32'",
+]
+
+[project.scripts]
+alice-voice = "alice_voice.__main__:main"
+
+[project.optional-dependencies]
+whisper = ["faster-whisper>=1.2,<2"]
+speaker = ["sherpa-onnx==1.13.8"]
+fair = ["soxr==1.1.0"]
+automation = [
+  "winrt-runtime==3.2.1; sys_platform == 'win32'",
+  "winrt-Windows.Media.Ocr==3.2.1; sys_platform == 'win32'",
+  "winrt-Windows.Graphics.Imaging==3.2.1; sys_platform == 'win32'",
+  "winrt-Windows.Storage.Streams==3.2.1; sys_platform == 'win32'",
+  "winrt-Windows.Globalization==3.2.1; sys_platform == 'win32'",
+  "winrt-Windows.Foundation==3.2.1; sys_platform == 'win32'",
+  "winrt-Windows.Foundation.Collections==3.2.1; sys_platform == 'win32'",
+]
+
+[tool.setuptools.packages.find]
+include = ["alice_voice*"]

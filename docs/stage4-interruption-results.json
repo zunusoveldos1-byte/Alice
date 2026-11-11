@@ -1,0 +1,669 @@
+{
+  "format_version": 2,
+  "method": "Synthetic Russian SAPI PCM, real-time replay -> real Silero/Vosk/controller/QAudioSink StoppedState",
+  "output_volume": 0,
+  "live_microphone": false,
+  "acoustic_stop_measured": false,
+  "llm_tts_runtime": "fake; target PCM synthesized by real SAPI before each trial",
+  "physical_headphones_and_speakers_tested": false,
+  "measurements": {
+    "headphones": {
+      "n": 1,
+      "mean_ms": 807.6913000040804,
+      "p50_ms": 807.6913000040804,
+      "p95_ms": 807.6913000040804,
+      "min_ms": 807.6913000040804,
+      "max_ms": 807.6913000040804
+    },
+    "speakers_policy": {
+      "n": 1,
+      "mean_ms": 769.4141000029049,
+      "p50_ms": 769.4141000029049,
+      "p95_ms": 769.4141000029049,
+      "min_ms": 769.4141000029049,
+      "max_ms": 769.4141000029049
+    }
+  },
+  "rows": [
+    {
+      "headphones_policy": true,
+      "echo_only": false,
+      "cancelled": true,
+      "recognized": [
+        "стоп"
+      ],
+      "evidence": [
+        {
+          "text": "сто",
+          "acoustic": "independent"
+        },
+        {
+          "text": "сто",
+          "acoustic": "independent"
+        },
+        {
+          "text": "сто",
+          "acoustic": "independent"
+        },
+        {
+          "text": "сто",
+          "acoustic": "independent"
+        }
+      ],
+      "submissions": [],
+      "errors": [],
+      "voice_onset_to_sink_stopped_ms": 807.6913000040804,
+      "output_stopped_state": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Стоп"
+    },
+    {
+      "headphones_policy": true,
+      "echo_only": false,
+      "cancelled": true,
+      "recognized": [
+        "замолчи"
+      ],
+      "evidence": [
+        {
+          "text": "замок",
+          "acoustic": "independent"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "independent"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "independent"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "independent"
+        }
+      ],
+      "submissions": [],
+      "errors": [],
+      "voice_onset_to_sink_stopped_ms": 778.6628999965615,
+      "output_stopped_state": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Замолчи"
+    },
+    {
+      "headphones_policy": true,
+      "echo_only": false,
+      "cancelled": true,
+      "recognized": [
+        "хватит"
+      ],
+      "evidence": [
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        }
+      ],
+      "submissions": [],
+      "errors": [],
+      "voice_onset_to_sink_stopped_ms": 637.202800004161,
+      "output_stopped_state": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Хватит"
+    },
+    {
+      "headphones_policy": true,
+      "echo_only": false,
+      "cancelled": true,
+      "recognized": [
+        "найди погоду в бишкеке"
+      ],
+      "evidence": [
+        {
+          "text": "найди",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        }
+      ],
+      "submissions": [
+        "найди погоду в бишкеке"
+      ],
+      "errors": [],
+      "voice_onset_to_sink_stopped_ms": 1029.874200001359,
+      "output_stopped_state": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Найди погоду в Бишкеке"
+    },
+    {
+      "headphones_policy": false,
+      "echo_only": false,
+      "cancelled": true,
+      "recognized": [
+        "стоп"
+      ],
+      "evidence": [
+        {
+          "text": "сто",
+          "acoustic": "independent"
+        },
+        {
+          "text": "сто",
+          "acoustic": "independent"
+        },
+        {
+          "text": "сто",
+          "acoustic": "independent"
+        },
+        {
+          "text": "сто",
+          "acoustic": "independent"
+        }
+      ],
+      "submissions": [],
+      "errors": [],
+      "voice_onset_to_sink_stopped_ms": 769.4141000029049,
+      "output_stopped_state": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Стоп"
+    },
+    {
+      "headphones_policy": false,
+      "echo_only": false,
+      "cancelled": true,
+      "recognized": [
+        "замолчи"
+      ],
+      "evidence": [
+        {
+          "text": "замок",
+          "acoustic": "independent"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "independent"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "independent"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "independent"
+        }
+      ],
+      "submissions": [],
+      "errors": [],
+      "voice_onset_to_sink_stopped_ms": 768.108200005372,
+      "output_stopped_state": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Замолчи"
+    },
+    {
+      "headphones_policy": false,
+      "echo_only": false,
+      "cancelled": true,
+      "recognized": [
+        "хватит"
+      ],
+      "evidence": [
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "independent"
+        }
+      ],
+      "submissions": [],
+      "errors": [],
+      "voice_onset_to_sink_stopped_ms": 638.6025000028894,
+      "output_stopped_state": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Хватит"
+    },
+    {
+      "headphones_policy": false,
+      "echo_only": false,
+      "cancelled": true,
+      "recognized": [
+        "найди погоду в бишкеке"
+      ],
+      "evidence": [
+        {
+          "text": "найди",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        },
+        {
+          "text": "найди погоду в бишкеке",
+          "acoustic": "independent"
+        }
+      ],
+      "submissions": [
+        "найди погоду в бишкеке"
+      ],
+      "errors": [],
+      "voice_onset_to_sink_stopped_ms": 1023.8609999942128,
+      "output_stopped_state": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Найди погоду в Бишкеке"
+    },
+    {
+      "headphones_policy": false,
+      "echo_only": true,
+      "cancelled": false,
+      "recognized": [
+        "стоп",
+        "замолчи",
+        "хватит",
+        "это премьер голосовых команд"
+      ],
+      "evidence": [
+        {
+          "text": "сто",
+          "acoustic": "echo"
+        },
+        {
+          "text": "сто",
+          "acoustic": "echo"
+        },
+        {
+          "text": "сто",
+          "acoustic": "echo"
+        },
+        {
+          "text": "сто",
+          "acoustic": "echo"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "echo"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        }
+      ],
+      "submissions": [],
+      "errors": [],
+      "output_stopped_state": false,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Стоп. Замолчи. Хватит. Это пример голосовых команд."
+    },
+    {
+      "headphones_policy": false,
+      "echo_only": true,
+      "cancelled": false,
+      "recognized": [
+        "стоп",
+        "замолчи",
+        "хватит",
+        "это премьер голосовых команд"
+      ],
+      "evidence": [
+        {
+          "text": "сто",
+          "acoustic": "echo"
+        },
+        {
+          "text": "сто",
+          "acoustic": "echo"
+        },
+        {
+          "text": "сто",
+          "acoustic": "echo"
+        },
+        {
+          "text": "сто",
+          "acoustic": "echo"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "echo"
+        },
+        {
+          "text": "замолчи",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "хватит",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        },
+        {
+          "text": "это премьер голосовых команд",
+          "acoustic": "echo"
+        }
+      ],
+      "submissions": [],
+      "errors": [],
+      "output_stopped_state": false,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "capture_generation": 0,
+      "source_text": "Стоп. Замолчи. Хватит. Это пример голосовых команд."
+    }
+  ]
+}

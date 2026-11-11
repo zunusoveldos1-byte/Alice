@@ -1,0 +1,36 @@
+{
+  "real_windows_queried": false,
+  "wall_clock_speed_measured": false,
+  "stable": {
+    "before": {
+      "ticks": 120,
+      "simulated_seconds": 60,
+      "handle_probes": 0,
+      "full_metadata_queries": 120,
+      "last_handle": 10
+    },
+    "after": {
+      "ticks": 120,
+      "simulated_seconds": 60,
+      "handle_probes": 120,
+      "full_metadata_queries": 12,
+      "last_handle": 10
+    }
+  },
+  "switch_every_two_seconds": {
+    "before": {
+      "ticks": 120,
+      "simulated_seconds": 60,
+      "handle_probes": 0,
+      "full_metadata_queries": 120,
+      "last_handle": 39
+    },
+    "after": {
+      "ticks": 120,
+      "simulated_seconds": 60,
+      "handle_probes": 120,
+      "full_metadata_queries": 30,
+      "last_handle": 39
+    }
+  }
+}

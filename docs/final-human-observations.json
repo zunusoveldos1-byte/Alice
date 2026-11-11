@@ -1,0 +1,17 @@
+{
+  "source": "Human replies in this verification conversation",
+  "headphones": {
+    "physical_equipment_available": true,
+    "worn_confirmed": true,
+    "silent_during_case_0_confirmed": true,
+    "audio_only_in_headphones_confirmed": true,
+    "reported_false_interruption": true,
+    "case_0_expected_behavior_checkbox_overridden_by_explicit_reply": true
+  },
+  "speakers": {
+    "three_trials_completed_confirmed": true,
+    "window_closed_confirmed": true,
+    "per_trial_observations": "See final-physical-speakers.json"
+  },
+  "acoustic_latency_measured": false
+}

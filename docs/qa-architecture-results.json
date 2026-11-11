@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-21",
+  "configuration": {
+    "provider": "gemini",
+    "gemini_model": "gemini-2.5-flash",
+    "ollama_model": "qwen3:4b",
+    "synthesizer": "elevenlabs",
+    "silence_ms": 650,
+    "min_speech_ms": 309
+  },
+  "filter": [
+    {
+      "raw": "Поставь таймер на семь... ой нет, точнее на восемь минут",
+      "clean_query": "на восемь минут",
+      "latency": {
+        "n": 1000,
+        "mean_ms": 0.05204669991871924,
+        "p50_ms": 0.04990000161342323,
+        "p95_ms": 0.06159999975352548,
+        "min_ms": 0.03870000000461005,
+        "max_ms": 0.3270999986852985
+      },
+      "expected": "Поставь таймер на восемь минут",
+      "status": "FAIL"
+    },
+    {
+      "raw": "Открой браузер и найди погоду... хотя нет, забудь, открой блокнот",
+      "clean_query": "открой блокнот",
+      "latency": {
+        "n": 1000,
+        "mean_ms": 0.057308999876113376,
+        "p50_ms": 0.053899999329587445,
+        "p95_ms": 0.06711000150971812,
+        "min_ms": 0.05249999958323315,
+        "max_ms": 0.768699999753153
+      },
+      "expected": "открой блокнот",
+      "status": "PASS"
+    },
+    {
+      "raw": "Эээ, ну короче, типа покажи мне, как написать класс на C#, ну ты понял",
+      "clean_query": "покажи мне, как написать класс на C# ты понял",
+      "latency": {
+        "n": 1000,
+        "mean_ms": 0.05232250007611583,
+        "p50_ms": 0.05050000254414044,
+        "p95_ms": 0.061110002934583456,
+        "min_ms": 0.04830000034417026,
+        "max_ms": 0.29550000181188807
+      },
+      "expected": "покажи мне, как написать класс на C#",
+      "status": "PARTIAL"
+    },
+    {
+      "raw": "Что такое типа данных string?",
+      "clean_query": "Что такое данных string?",
+      "latency": {
+        "n": 1000,
+        "mean_ms": 0.023005900005955482,
+        "p50_ms": 0.02229999881819822,
+        "p95_ms": 0.02666000218596304,
+        "min_ms": 0.021600000764010474,
+        "max_ms": 0.14709999959450215
+      },
+      "expected": "Что такое типа данных string?",
+      "status": "FAIL"
+    }
+  ],
+  "security": {
+    "elevenlabs_key_field_in_json": true,
+    "elevenlabs_key_nonempty_in_json": false,
+    "gemini_key_field_in_json": false,
+    "gemini_credential_available": true
+  },
+  "vision": {
+    "capture_resize_encode_total": {
+      "n": 8,
+      "mean_ms": 327.2343749999891,
+      "p50_ms": 182.76030000015453,
+      "p95_ms": 876.2378399987933,
+      "min_ms": 170.77879999851575,
+      "max_ms": 1138.7271999992663
+    },
+    "resize": {
+      "n": 8,
+      "mean_ms": 76.68204999890804,
+      "p50_ms": 76.88824999968347,
+      "p95_ms": 77.87386999771115,
+      "min_ms": 75.36110000000917,
+      "max_ms": 77.95079999777954
+    },
+    "jpeg_encode": {
+      "n": 8,
+      "mean_ms": 13.434924999728537,
+      "p50_ms": 13.48985000004177,
+      "p95_ms": 13.683274999493733,
+      "min_ms": 13.031099999352591,
+      "max_ms": 13.729999998759013
+    },
+    "source_dimensions": "primary monitor",
+    "jpeg_dimensions": [
+      1280,
+      720
+    ],
+    "jpeg_bytes_range": [
+      93500,
+      93500
+    ],
+    "base64_bytes_last": 124668,
+    "gemini_http_body_bytes_mock_transport": 125578
+  },
+  "cancellation_mock_http": {
+    "llm": {
+      "cancel_to_task_done": {
+        "n": 20,
+        "mean_ms": 0.5556600002819323,
+        "p50_ms": 0.5148999989614822,
+        "p95_ms": 0.7921550031824155,
+        "min_ms": 0.4776999994646758,
+        "max_ms": 0.9470999975746963
+      },
+      "all_http_responses_closed": true,
+      "all_local_queues_collected": true,
+      "queue_depth_before_cancel_max": 0
+    },
+    "tts": {
+      "cancel_to_task_done": {
+        "n": 20,
+        "mean_ms": 0.49207499978365377,
+        "p50_ms": 0.48954999874695204,
+        "p95_ms": 0.5352149972168263,
+        "min_ms": 0.45339999996940605,
+        "max_ms": 0.5354999993869569
+      },
+      "all_http_responses_closed": true,
+      "all_local_queues_collected": true,
+      "queue_depth_before_cancel_max": 2
+    }
+  },
+  "live_llm": {
+    "gemini": {
+      "ttft_ms_cold_then_warm": [
+        2203.1631999998353,
+        465.48249999978,
+        1313.1649999995716
+      ],
+      "http_statuses": [
+        {
+          "method": "GET",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "status": 200
+        },
+        {
+          "method": "POST",
+          "status": 200
+        }
+      ],
+      "error_type": null,
+      "model": "gemini-2.5-flash"
+    },
+    "ollama": {
+      "ttft_ms_cold_then_warm": [],
+      "http_statuses": [
+        {
+          "method": "POST",
+          "status": 404
+        }
+      ],
+      "error_type": "ProviderError",
+      "model": "qwen3:4b"
+    }
+  }
+}

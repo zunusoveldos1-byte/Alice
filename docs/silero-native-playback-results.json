@@ -1,0 +1,13 @@
+{
+  "real_model": true,
+  "real_qaudiosink": true,
+  "sample_rate": 24000,
+  "first_active_seen": true,
+  "natural_drain_completed": true,
+  "late_pcm_dropped": true,
+  "same_sink_reused": true,
+  "buffers_cleared": true,
+  "errors": [],
+  "volume": 0,
+  "acoustic_first_sound_measured": false
+}

@@ -1,0 +1,41 @@
+{
+  "mode": "cached",
+  "real_models": true,
+  "microphone_opened": false,
+  "noise_processing": false,
+  "llm_used": false,
+  "rows": [
+    {
+      "cycle": 1,
+      "to_capture_open_ms": 1147.3144999999931,
+      "vad_ms": 326.56459999998333,
+      "stt_ms": 820.6593000013527,
+      "vad_loads": 1,
+      "vosk_loads": 1
+    },
+    {
+      "cycle": 2,
+      "to_capture_open_ms": 77.15970000026573,
+      "vad_ms": 0.5462999997689622,
+      "stt_ms": 76.56130000032135,
+      "vad_loads": 0,
+      "vosk_loads": 0
+    },
+    {
+      "cycle": 3,
+      "to_capture_open_ms": 73.19040000038513,
+      "vad_ms": 0.37510000038309954,
+      "stt_ms": 72.77940000130911,
+      "vad_loads": 0,
+      "vosk_loads": 0
+    },
+    {
+      "cycle": 4,
+      "to_capture_open_ms": 80.5980000004638,
+      "vad_ms": 0.41990000136138406,
+      "stt_ms": 80.13879999998608,
+      "vad_loads": 0,
+      "vosk_loads": 0
+    }
+  ]
+}

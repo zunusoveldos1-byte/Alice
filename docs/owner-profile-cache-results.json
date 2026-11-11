@@ -1,0 +1,37 @@
+{
+  "real_owner_profile_used": false,
+  "speaker_inference_measured": false,
+  "metadata_is_checked_each_lookup": true,
+  "thirty_second_phrase_29_windows": {
+    "before": {
+      "lookups": 29,
+      "accepted": 29,
+      "file_content_reads": 29,
+      "wall_ms": 19.620999999460764,
+      "process_cpu_ms": 0.0
+    },
+    "after": {
+      "lookups": 29,
+      "accepted": 29,
+      "file_content_reads": 1,
+      "wall_ms": 4.631300000255578,
+      "process_cpu_ms": 0.0
+    }
+  },
+  "repeated_lookup": {
+    "before": {
+      "lookups": 1000,
+      "accepted": 1000,
+      "file_content_reads": 1000,
+      "wall_ms": 326.94809999884455,
+      "process_cpu_ms": 328.125
+    },
+    "after": {
+      "lookups": 1000,
+      "accepted": 1000,
+      "file_content_reads": 1,
+      "wall_ms": 119.60279999948398,
+      "process_cpu_ms": 93.75
+    }
+  }
+}

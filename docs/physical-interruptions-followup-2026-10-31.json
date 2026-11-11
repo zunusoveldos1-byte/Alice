@@ -1,0 +1,381 @@
+{
+  "mode": "headphones",
+  "real_microphone": true,
+  "real_sapi": true,
+  "real_llm": false,
+  "real_elevenlabs": false,
+  "audio_saved": false,
+  "acoustic_timing_measured": false,
+  "silence_ms": 650,
+  "rows": [
+    {
+      "case": 2,
+      "instruction": "Сказать: Найди погоду в Бишкеке",
+      "mode": "headphones",
+      "physical_device_confirmed": true,
+      "output": "Динамики (Lenovo Services E07)",
+      "opened": 19640.6678186,
+      "cancellations": [
+        19644.3810232
+      ],
+      "native_stopped": [
+        19644.386075
+      ],
+      "recognized": [
+        "найти погода в печке"
+      ],
+      "submitted": [
+        "найти погода в печке"
+      ],
+      "evidence": [
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в печке",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в печке",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в печке",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в печке",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в печке",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в печке",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        },
+        {
+          "text": "найти погода в печке",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19643.6064565
+        }
+      ],
+      "errors": [],
+      "assistant_contains_control_words": false,
+      "audio_launch": 19641.8031376,
+      "ended": true,
+      "audio_damage_counts": {},
+      "latency": {
+        "cold_vad": {
+          "count": 1,
+          "mean_ms": 208.54009999675327,
+          "p50_ms": 208.54009999675327,
+          "p95_ms": 208.54009999675327
+        },
+        "cold_stt": {
+          "count": 1,
+          "mean_ms": 650.8475999980874,
+          "p50_ms": 650.8475999980874,
+          "p95_ms": 650.8475999980874
+        },
+        "audio_queue": {
+          "count": 145,
+          "mean_ms": 50.55494896301313,
+          "p50_ms": 40.70799999681185,
+          "p95_ms": 73.30809999693884
+        },
+        "vad": {
+          "count": 145,
+          "mean_ms": 0.48363999978454525,
+          "p50_ms": 0.44069999785278924,
+          "p95_ms": 0.7964199998241381
+        },
+        "pcm_to_playback": {
+          "count": 1,
+          "mean_ms": 14.121899999736343,
+          "p50_ms": 14.121899999736343,
+          "p95_ms": 14.121899999736343
+        },
+        "speech_end_to_voice": {
+          "count": 1,
+          "mean_ms": 14.124599998467602,
+          "p50_ms": 14.124599998467602,
+          "p95_ms": 14.124599998467602
+        },
+        "stt_feed": {
+          "count": 77,
+          "mean_ms": 6.932354545600216,
+          "p50_ms": 0.33659999826340936,
+          "p95_ms": 36.46093999923328
+        },
+        "voice_start_to_output_reset": {
+          "count": 1,
+          "mean_ms": 779.7109999992244,
+          "p50_ms": 779.7109999992244,
+          "p95_ms": 779.7109999992244
+        },
+        "stt_finalize": {
+          "count": 1,
+          "mean_ms": 4.084199998033,
+          "p50_ms": 4.084199998033,
+          "p95_ms": 4.084199998033
+        },
+        "endpoint_wait": {
+          "count": 1,
+          "mean_ms": 672.0000000022992,
+          "p50_ms": 672.0000000022992,
+          "p95_ms": 672.0000000022992
+        },
+        "speech_end_to_text": {
+          "count": 1,
+          "mean_ms": 716.1191999985022,
+          "p50_ms": 716.1191999985022,
+          "p95_ms": 716.1191999985022
+        }
+      },
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": false,
+      "human_behavior_confirmed": true
+    },
+    {
+      "case": 2,
+      "instruction": "Сказать: Найди погоду в Бишкеке",
+      "mode": "headphones",
+      "physical_device_confirmed": true,
+      "output": "Динамики (Lenovo Services E07)",
+      "opened": 19657.2501719,
+      "cancellations": [
+        19661.7259043
+      ],
+      "native_stopped": [
+        19661.7289091,
+        19661.7289121
+      ],
+      "recognized": [],
+      "submitted": [],
+      "evidence": [
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти покупателя",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по коду",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по коду",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по коду",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по коду",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по коду вы",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по коду вы",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        },
+        {
+          "text": "найти по коду вы",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19660.952690000002
+        }
+      ],
+      "errors": [],
+      "assistant_contains_control_words": false,
+      "audio_launch": 19657.4530451,
+      "ended": true,
+      "audio_damage_counts": {},
+      "latency": {
+        "cold_vad": {
+          "count": 1,
+          "mean_ms": 1.6725000023143366,
+          "p50_ms": 1.6725000023143366,
+          "p95_ms": 1.6725000023143366
+        },
+        "cold_stt": {
+          "count": 1,
+          "mean_ms": 79.84810000198195,
+          "p50_ms": 79.84810000198195,
+          "p95_ms": 79.84810000198195
+        },
+        "audio_queue": {
+          "count": 198,
+          "mean_ms": 50.893991414965846,
+          "p50_ms": 37.741550000646384,
+          "p95_ms": 70.9187850012313
+        },
+        "vad": {
+          "count": 198,
+          "mean_ms": 0.4068974750142925,
+          "p50_ms": 0.3950000009353971,
+          "p95_ms": 0.581035000686824
+        },
+        "pcm_to_playback": {
+          "count": 1,
+          "mean_ms": 9.99729999966803,
+          "p50_ms": 9.99729999966803,
+          "p95_ms": 9.99729999966803
+        },
+        "speech_end_to_voice": {
+          "count": 1,
+          "mean_ms": 10.000600002967985,
+          "p50_ms": 10.000600002967985,
+          "p95_ms": 10.000600002967985
+        },
+        "stt_feed": {
+          "count": 84,
+          "mean_ms": 5.373264285740983,
+          "p50_ms": 0.3182499985996401,
+          "p95_ms": 18.98142500122048
+        },
+        "voice_start_to_output_reset": {
+          "count": 1,
+          "mean_ms": 776.2773999966157,
+          "p50_ms": 776.2773999966157,
+          "p95_ms": 776.2773999966157
+        }
+      },
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": false,
+      "human_behavior_confirmed": true
+    }
+  ]
+}

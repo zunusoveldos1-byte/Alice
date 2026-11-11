@@ -1,0 +1,49 @@
+{
+  "method": "SAPI synthetic PCM, real Vosk and faster-whisper small CPU int8",
+  "live_microphone": false,
+  "audio_saved": false,
+  "playback": false,
+  "cold_whisper_ms": 1260.983899999701,
+  "rows": [
+    {
+      "expected": "Найди погоду в Бишкеке",
+      "vosk": "найди погоду в бишкеке",
+      "whisper": "Найди погоду в бишкике.",
+      "vosk_wer": 0.0,
+      "whisper_wer": 0.25,
+      "vosk_ms": 531.0640999996394,
+      "whisper_ms": 1875.4182999982731,
+      "audio_ms": 3424.0
+    },
+    {
+      "expected": "Открой блокнот",
+      "vosk": "открой блокнот",
+      "whisper": "Открой блокнот.",
+      "vosk_wer": 0.0,
+      "whisper_wer": 0.0,
+      "vosk_ms": 161.76869999981136,
+      "whisper_ms": 1542.2894000002998,
+      "audio_ms": 2912.0
+    },
+    {
+      "expected": "Поставь таймер на восемь минут",
+      "vosk": "поставь таймер на восемь минут",
+      "whisper": "поставь таймер на 8 минут",
+      "vosk_wer": 0.0,
+      "whisper_wer": 0.2,
+      "vosk_ms": 176.290199997311,
+      "whisper_ms": 1563.8622000005853,
+      "audio_ms": 3904.0
+    },
+    {
+      "expected": "Расскажи про Кыргызстан",
+      "vosk": "расскажи про кыргызстан",
+      "whisper": "Расскажи про Кыргыстан.",
+      "vosk_wer": 0.0,
+      "whisper_wer": 0.3333333333333333,
+      "vosk_ms": 169.33020000215038,
+      "whisper_ms": 1622.7287000001525,
+      "audio_ms": 3328.0
+    }
+  ]
+}

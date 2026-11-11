@@ -1,0 +1,18 @@
+{
+  "backend": "real HTTP, configured TTS and QAudioSink; no fixtures",
+  "configured_provider_unchanged": "ollama",
+  "tts": "sapi",
+  "model": "",
+  "silence_ms": 650,
+  "microphone_used": false,
+  "acoustic_first_sound_measured": false,
+  "volume": 0,
+  "model_cold_start": "unverified: model/server state is not reset",
+  "client_cold": null,
+  "warm_rows": [],
+  "ttft": null,
+  "submit_to_active": null,
+  "speech_end_to_actual_sound": null,
+  "status": "unverified",
+  "blocker": "LM Studio: сервер недоступен. Запустите Local Server в LM Studio и проверьте URL в настройках."
+}

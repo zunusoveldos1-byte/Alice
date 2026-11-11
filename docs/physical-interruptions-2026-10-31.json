@@ -1,0 +1,251 @@
+{
+  "mode": "headphones",
+  "real_microphone": true,
+  "real_sapi": true,
+  "real_llm": false,
+  "real_elevenlabs": false,
+  "audio_saved": false,
+  "acoustic_timing_measured": false,
+  "silence_ms": 650,
+  "rows": [
+    {
+      "case": 0,
+      "instruction": "Молчать: проверить собственную озвучку",
+      "mode": "headphones",
+      "physical_device_confirmed": true,
+      "output": "Динамики (Lenovo Services E07)",
+      "opened": 19400.339766,
+      "cancellations": [],
+      "native_stopped": [],
+      "recognized": [],
+      "submitted": [],
+      "evidence": [],
+      "errors": [],
+      "assistant_contains_control_words": true,
+      "audio_launch": 19402.2522339,
+      "ended": true,
+      "audio_damage_counts": {},
+      "latency": {
+        "cold_vad": {
+          "count": 1,
+          "mean_ms": 255.45499999861931,
+          "p50_ms": 255.45499999861931,
+          "p95_ms": 255.45499999861931
+        },
+        "cold_stt": {
+          "count": 1,
+          "mean_ms": 1313.2267000000866,
+          "p50_ms": 1313.2267000000866,
+          "p95_ms": 1313.2267000000866
+        },
+        "pcm_to_playback": {
+          "count": 1,
+          "mean_ms": 12.889400000858586,
+          "p50_ms": 12.889400000858586,
+          "p95_ms": 12.889400000858586
+        },
+        "speech_end_to_voice": {
+          "count": 1,
+          "mean_ms": 12.89109999925131,
+          "p50_ms": 12.89109999925131,
+          "p95_ms": 12.89109999925131
+        },
+        "audio_queue": {
+          "count": 512,
+          "mean_ms": 47.87197382859887,
+          "p50_ms": 39.22405000048457,
+          "p95_ms": 71.97324999833654
+        },
+        "vad": {
+          "count": 512,
+          "mean_ms": 0.583595898341116,
+          "p50_ms": 0.5294000002322719,
+          "p95_ms": 1.1201649998838545
+        }
+      },
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": false
+    },
+    {
+      "case": 1,
+      "instruction": "Сказать: Стоп",
+      "mode": "headphones",
+      "physical_device_confirmed": true,
+      "output": "Динамики (Lenovo Services E07)",
+      "opened": 19435.9067475,
+      "cancellations": [
+        19438.9005686
+      ],
+      "native_stopped": [
+        19438.9035039,
+        19438.9035083
+      ],
+      "recognized": [
+        "стоп"
+      ],
+      "submitted": [],
+      "evidence": [
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19438.1205498
+        },
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 19438.1205498
+        }
+      ],
+      "errors": [],
+      "assistant_contains_control_words": false,
+      "audio_launch": 19436.0080186,
+      "ended": true,
+      "audio_damage_counts": {},
+      "latency": {
+        "cold_vad": {
+          "count": 1,
+          "mean_ms": 0.773199997638585,
+          "p50_ms": 0.773199997638585,
+          "p95_ms": 0.773199997638585
+        },
+        "cold_stt": {
+          "count": 1,
+          "mean_ms": 76.6832000008435,
+          "p50_ms": 76.6832000008435,
+          "p95_ms": 76.6832000008435
+        },
+        "pcm_to_playback": {
+          "count": 1,
+          "mean_ms": 12.086999999155523,
+          "p50_ms": 12.086999999155523,
+          "p95_ms": 12.086999999155523
+        },
+        "speech_end_to_voice": {
+          "count": 1,
+          "mean_ms": 12.088999999832595,
+          "p50_ms": 12.088999999832595,
+          "p95_ms": 12.088999999832595
+        },
+        "audio_queue": {
+          "count": 152,
+          "mean_ms": 53.620105262277654,
+          "p50_ms": 40.181899998060544,
+          "p95_ms": 74.86545000083423
+        },
+        "vad": {
+          "count": 152,
+          "mean_ms": 0.617428289555583,
+          "p50_ms": 0.6105000011302764,
+          "p95_ms": 0.9308950007834935
+        },
+        "stt_feed": {
+          "count": 28,
+          "mean_ms": 10.01131071448721,
+          "p50_ms": 0.3956500004278496,
+          "p95_ms": 21.725345001323134
+        },
+        "voice_start_to_output_reset": {
+          "count": 1,
+          "mean_ms": 782.9996000000392,
+          "p50_ms": 782.9996000000392,
+          "p95_ms": 782.9996000000392
+        },
+        "stt_finalize": {
+          "count": 1,
+          "mean_ms": 6.935299999895506,
+          "p50_ms": 6.935299999895506,
+          "p95_ms": 6.935299999895506
+        },
+        "endpoint_wait": {
+          "count": 1,
+          "mean_ms": 671.9999999986612,
+          "p50_ms": 671.9999999986612,
+          "p95_ms": 671.9999999986612
+        },
+        "speech_end_to_text": {
+          "count": 1,
+          "mean_ms": 720.1198999973712,
+          "p50_ms": 720.1198999973712,
+          "p95_ms": 720.1198999973712
+        }
+      },
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": false
+    },
+    {
+      "case": 2,
+      "instruction": "Сказать: Найди погоду в Бишкеке",
+      "mode": "headphones",
+      "physical_device_confirmed": true,
+      "output": "Динамики (Lenovo Services E07)",
+      "opened": 19450.3225581,
+      "cancellations": [],
+      "native_stopped": [],
+      "recognized": [],
+      "submitted": [],
+      "evidence": [],
+      "errors": [],
+      "assistant_contains_control_words": false,
+      "audio_launch": 19450.4233811,
+      "ended": true,
+      "audio_damage_counts": {},
+      "latency": {
+        "cold_vad": {
+          "count": 1,
+          "mean_ms": 0.5889999993087258,
+          "p50_ms": 0.5889999993087258,
+          "p95_ms": 0.5889999993087258
+        },
+        "cold_stt": {
+          "count": 1,
+          "mean_ms": 69.77440000264323,
+          "p50_ms": 69.77440000264323,
+          "p95_ms": 69.77440000264323
+        },
+        "pcm_to_playback": {
+          "count": 1,
+          "mean_ms": 9.412699997483287,
+          "p50_ms": 9.412699997483287,
+          "p95_ms": 9.412699997483287
+        },
+        "speech_end_to_voice": {
+          "count": 1,
+          "mean_ms": 9.414899999683257,
+          "p50_ms": 9.414899999683257,
+          "p95_ms": 9.414899999683257
+        },
+        "audio_queue": {
+          "count": 512,
+          "mean_ms": 47.95906210732426,
+          "p50_ms": 39.18934999819612,
+          "p95_ms": 71.97915999731777
+        },
+        "vad": {
+          "count": 512,
+          "mean_ms": 0.5718369141050061,
+          "p50_ms": 0.5454999991343357,
+          "p95_ms": 0.9452950009290361
+        }
+      },
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": false
+    }
+  ],
+  "human_followup_confirmation": {
+    "source": "chat",
+    "confirmed_cases": [
+      0,
+      1
+    ],
+    "silence_played_to_end": true,
+    "spoken_stop_audibly_stopped_output": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "selected_provider_unchanged": "ollama",
+  "silence_ms": 650,
+  "real_credential_manager": "isolated write/read/replace/delete passed; no user token changed",
+  "server": "unavailable",
+  "safe_error": "LM Studio: истёк таймаут. Проверьте загрузку модели и сервер."
+}

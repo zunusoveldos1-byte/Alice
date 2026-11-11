@@ -1,0 +1,23 @@
+{
+  "generation_requests": 0,
+  "rows": [
+    {
+      "status": 200,
+      "duration_ms": 568.8951999982237,
+      "tcp_connects": 1,
+      "tls_handshakes": 1
+    },
+    {
+      "status": 200,
+      "duration_ms": 156.11809999973048,
+      "tcp_connects": 0,
+      "tls_handshakes": 0
+    },
+    {
+      "status": 200,
+      "duration_ms": 165.9868999995524,
+      "tcp_connects": 0,
+      "tls_handshakes": 0
+    }
+  ]
+}

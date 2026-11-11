@@ -1,0 +1,264 @@
+{
+  "model": "v4_ru",
+  "voice": "xenia",
+  "sample_rate": 24000,
+  "cpu_threads": 2,
+  "weights_sha256": "896ab96347d5bd781ab97959d4fd6885620e5aab52405d3445626eb7c1414b00",
+  "llm_used": false,
+  "acoustic_first_sound_measured": false,
+  "network_blocked": true,
+  "logical_cpus": 12,
+  "memory_before": {
+    "rss_mib": 28.51171875,
+    "peak_rss_mib": 28.51171875
+  },
+  "rows": [
+    {
+      "index": 0,
+      "text": "Привет. Я работаю локально.",
+      "first_pcm_ms": 4031.67989999929,
+      "cpu_ms": 4015.625,
+      "process_cpu_percent_one_core_100": 99.60178138152057,
+      "audio_ms": 1975.0,
+      "rss_mib": 542.57421875,
+      "peak_rss_mib": 544.84375
+    },
+    {
+      "index": 1,
+      "text": "Сегодня в Бишкеке солнечно, температура около двадцати градусов.",
+      "first_pcm_ms": 179.9883999992744,
+      "cpu_ms": 281.25,
+      "process_cpu_percent_one_core_100": 156.26007009403594,
+      "audio_ms": 3687.5,
+      "rss_mib": 545.7890625,
+      "peak_rss_mib": 550.1796875
+    },
+    {
+      "index": 2,
+      "text": "Таймер установлен на восемь минут.",
+      "first_pcm_ms": 96.72460000001593,
+      "cpu_ms": 218.75,
+      "process_cpu_percent_one_core_100": 226.157564880045,
+      "audio_ms": 1887.5,
+      "rss_mib": 549.41015625,
+      "peak_rss_mib": 550.1796875
+    },
+    {
+      "index": 3,
+      "text": "Сначала проверим настройки, затем продолжим разговор.",
+      "first_pcm_ms": 105.13199999695644,
+      "cpu_ms": 187.5,
+      "process_cpu_percent_one_core_100": 178.34722064207673,
+      "audio_ms": 3150.0,
+      "rss_mib": 551.1015625,
+      "peak_rss_mib": 555.25
+    },
+    {
+      "index": 4,
+      "text": "Привет. Я работаю локально.",
+      "first_pcm_ms": 52.17890000494663,
+      "cpu_ms": 125.0,
+      "process_cpu_percent_one_core_100": 239.56043532567733,
+      "audio_ms": 1975.0,
+      "rss_mib": 552.93359375,
+      "peak_rss_mib": 555.25
+    },
+    {
+      "index": 5,
+      "text": "Сегодня в Бишкеке солнечно, температура около двадцати градусов.",
+      "first_pcm_ms": 102.61320000427077,
+      "cpu_ms": 171.875,
+      "process_cpu_percent_one_core_100": 167.49794372736312,
+      "audio_ms": 3687.5,
+      "rss_mib": 551.73046875,
+      "peak_rss_mib": 556.2578125
+    },
+    {
+      "index": 6,
+      "text": "Таймер установлен на восемь минут.",
+      "first_pcm_ms": 55.20859999523964,
+      "cpu_ms": 125.0,
+      "process_cpu_percent_one_core_100": 226.4140007368021,
+      "audio_ms": 1887.5,
+      "rss_mib": 553.23046875,
+      "peak_rss_mib": 556.2578125
+    },
+    {
+      "index": 7,
+      "text": "Сначала проверим настройки, затем продолжим разговор.",
+      "first_pcm_ms": 70.19579999905545,
+      "cpu_ms": 125.0,
+      "process_cpu_percent_one_core_100": 178.07333202510975,
+      "audio_ms": 3150.0,
+      "rss_mib": 551.48828125,
+      "peak_rss_mib": 556.26953125
+    },
+    {
+      "index": 8,
+      "text": "Привет. Я работаю локально.",
+      "first_pcm_ms": 42.44789999938803,
+      "cpu_ms": 93.75,
+      "process_cpu_percent_one_core_100": 220.85898242634286,
+      "audio_ms": 1975.0,
+      "rss_mib": 553.21484375,
+      "peak_rss_mib": 556.26953125
+    },
+    {
+      "index": 9,
+      "text": "Сегодня в Бишкеке солнечно, температура около двадцати градусов.",
+      "first_pcm_ms": 69.61849999788683,
+      "cpu_ms": 156.25,
+      "process_cpu_percent_one_core_100": 224.4374699321915,
+      "audio_ms": 3687.5,
+      "rss_mib": 551.7421875,
+      "peak_rss_mib": 556.3671875
+    },
+    {
+      "index": 10,
+      "text": "Таймер установлен на восемь минут.",
+      "first_pcm_ms": 41.860500001348555,
+      "cpu_ms": 62.5,
+      "process_cpu_percent_one_core_100": 149.305431129553,
+      "audio_ms": 1887.5,
+      "rss_mib": 553.2421875,
+      "peak_rss_mib": 556.3671875
+    },
+    {
+      "index": 11,
+      "text": "Сначала проверим настройки, затем продолжим разговор.",
+      "first_pcm_ms": 65.03360000351677,
+      "cpu_ms": 125.0,
+      "process_cpu_percent_one_core_100": 192.20833537316167,
+      "audio_ms": 3150.0,
+      "rss_mib": 551.49609375,
+      "peak_rss_mib": 556.3671875
+    },
+    {
+      "index": 12,
+      "text": "Привет. Я работаю локально.",
+      "first_pcm_ms": 45.63690000213683,
+      "cpu_ms": 93.75,
+      "process_cpu_percent_one_core_100": 205.4258724751471,
+      "audio_ms": 1975.0,
+      "rss_mib": 553.2265625,
+      "peak_rss_mib": 556.3671875
+    },
+    {
+      "index": 13,
+      "text": "Сегодня в Бишкеке солнечно, температура около двадцати градусов.",
+      "first_pcm_ms": 86.58650000143098,
+      "cpu_ms": 187.5,
+      "process_cpu_percent_one_core_100": 216.54645931744705,
+      "audio_ms": 3687.5,
+      "rss_mib": 551.75390625,
+      "peak_rss_mib": 556.37890625
+    },
+    {
+      "index": 14,
+      "text": "Таймер установлен на восемь минут.",
+      "first_pcm_ms": 58.051300002261996,
+      "cpu_ms": 125.0,
+      "process_cpu_percent_one_core_100": 215.32678853898074,
+      "audio_ms": 1887.5,
+      "rss_mib": 553.25390625,
+      "peak_rss_mib": 556.37890625
+    },
+    {
+      "index": 15,
+      "text": "Сначала проверим настройки, затем продолжим разговор.",
+      "first_pcm_ms": 83.76639999914914,
+      "cpu_ms": 156.25,
+      "process_cpu_percent_one_core_100": 186.53063758450537,
+      "audio_ms": 3150.0,
+      "rss_mib": 551.50390625,
+      "peak_rss_mib": 556.37890625
+    },
+    {
+      "index": 16,
+      "text": "Привет. Я работаю локально.",
+      "first_pcm_ms": 51.79920000227867,
+      "cpu_ms": 93.75,
+      "process_cpu_percent_one_core_100": 180.9873511480407,
+      "audio_ms": 1975.0,
+      "rss_mib": 553.23828125,
+      "peak_rss_mib": 556.37890625
+    },
+    {
+      "index": 17,
+      "text": "Сегодня в Бишкеке солнечно, температура около двадцати градусов.",
+      "first_pcm_ms": 84.34459999989485,
+      "cpu_ms": 171.875,
+      "process_cpu_percent_one_core_100": 203.7771238469496,
+      "audio_ms": 3687.5,
+      "rss_mib": 551.765625,
+      "peak_rss_mib": 556.390625
+    },
+    {
+      "index": 18,
+      "text": "Таймер установлен на восемь минут.",
+      "first_pcm_ms": 41.05420000269078,
+      "cpu_ms": 62.5,
+      "process_cpu_percent_one_core_100": 152.2377734699583,
+      "audio_ms": 1887.5,
+      "rss_mib": 553.26953125,
+      "peak_rss_mib": 556.390625
+    },
+    {
+      "index": 19,
+      "text": "Сначала проверим настройки, затем продолжим разговор.",
+      "first_pcm_ms": 59.646299996529706,
+      "cpu_ms": 125.0,
+      "process_cpu_percent_one_core_100": 209.56874107408618,
+      "audio_ms": 3150.0,
+      "rss_mib": 555.1171875,
+      "peak_rss_mib": 556.390625
+    }
+  ],
+  "cold_prepare_ms": 3793.909200001508,
+  "cold_prepare_cpu_ms": 3093.75,
+  "states": [
+    "silero_loading",
+    "silero_ready"
+  ],
+  "cold_first_inference_ms": 5319.380900000397,
+  "cold_request_to_first_pcm_ms": 9113.290100001905,
+  "memory_loaded": {
+    "rss_mib": 505.6484375,
+    "peak_rss_mib": 506.0546875
+  },
+  "cancel_await_return_ms": 3.1506000013905577,
+  "cancel_native_drained_ms": 544.3282999985968,
+  "cancel_native_calls": 1,
+  "cancel_late_pcm_count": 0,
+  "cancel_flag_set": true,
+  "network_attempts": 0,
+  "memory_final": {
+    "rss_mib": 556.1484375,
+    "peak_rss_mib": 580.375
+  },
+  "summary": {
+    "first_pcm_ms": {
+      "n": 20,
+      "median": 67.3260500007018,
+      "p95": 372.5729749992779
+    },
+    "cpu_ms": {
+      "n": 20,
+      "median": 125.0,
+      "p95": 467.9687500000026
+    },
+    "process_cpu_percent_one_core_100": {
+      "n": 20,
+      "median": 197.99272961005562,
+      "p95": 227.07132246624587
+    },
+    "rss_mib": {
+      "n": 20,
+      "median": 551.759765625,
+      "p95": 553.3619140625
+    }
+  },
+  "actual_torch": "2.10.0+cpu",
+  "actual_intraop_threads": 2,
+  "actual_interop_threads": 1
+}

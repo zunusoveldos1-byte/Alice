@@ -1,0 +1,8 @@
+{
+  "legacy_field_was_present": true,
+  "legacy_value_was_nonempty": false,
+  "legacy_field_removed": true,
+  "other_settings_preserved": true,
+  "verified_actual_credential_if_migrated": null,
+  "plaintext_backup_created": false
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-22",
+  "implemented": ["windows_commands", "explicit_persistent_memory", "firefox_search", "owner_voice_filter"],
+  "unittest": {"count": 286, "result": "OK", "seconds": 40.060},
+  "gui_smoke": {"exit_code": 0},
+  "native_windows_audio_status": "read_successfully",
+  "firefox_executable_found": "C:/Program Files/Mozilla Firefox/firefox.exe",
+  "firefox_launch_contract": "mocked subprocess verifies executable, encoded URL, separate arguments, shell=false",
+  "speaker_engine": {
+    "package": "sherpa-onnx",
+    "version": "1.13.8",
+    "model": "wespeaker_en_voxceleb_resnet34.onnx",
+    "size_bytes": 26534365,
+    "sha256": "5ef208a9da1453335308a6b6f4e6dfbd7e183a38b604de0a57664f45d257fe94",
+    "embedding_dimension": 256,
+    "synthetic_2_second_compute_seconds": 0.064
+  },
+  "owner_profile": {"present": true, "model_hash_matches": true, "owner_only_enabled": true, "user_confirmed_enrollment": true},
+  "negative_checks": [{"synthetic_voice": "baya", "accepted_as_owner": false}, {"synthetic_voice": "eugene", "accepted_as_owner": false}],
+  "real_other_person_tested": false,
+  "owner_live_command_after_enrollment": "user_confirmed_Alice_spoke_fact_saved",
+  "persistent_memory_checked_from_separate_process": true,
+  "audio_saved": false,
+  "limitations": ["probabilistic speaker filter, not replay-proof authentication", "utterances below one second rejected", "one in-flight verification", "Firefox opens search results, does not read them", "memory contains only explicitly requested facts"]
+}

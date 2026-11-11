@@ -1,0 +1,5 @@
+{
+  "model": "gemini-2.5-flash-lite",
+  "success": false,
+  "message": "Модель отклонила запрос (HTTP 404). Проверьте модель, ключ и лимиты."
+}

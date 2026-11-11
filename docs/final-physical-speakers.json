@@ -1,0 +1,194 @@
+{
+  "mode": "speakers",
+  "real_microphone": true,
+  "real_sapi": true,
+  "real_llm": false,
+  "real_elevenlabs": false,
+  "audio_saved": false,
+  "acoustic_timing_measured": false,
+  "silence_ms": 650,
+  "rows": [
+    {
+      "case": 0,
+      "instruction": "Молчать: проверить собственную озвучку",
+      "mode": "speakers",
+      "physical_device_confirmed": true,
+      "output": "Динамики (2- Realtek(R) Audio)",
+      "opened": 47408.7034432,
+      "cancellations": [],
+      "native_stopped": [],
+      "recognized": [],
+      "submitted": [],
+      "evidence": [],
+      "errors": [
+        "Потеря аудиокадров: текущая фраза отброшена. Сделайте паузу и повторите."
+      ],
+      "assistant_contains_control_words": true,
+      "audio_launch": 47410.8548679,
+      "ended": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": false
+    },
+    {
+      "case": 1,
+      "instruction": "Сказать: Стоп",
+      "mode": "speakers",
+      "physical_device_confirmed": true,
+      "output": "Динамики (2- Realtek(R) Audio)",
+      "opened": 47447.1510192,
+      "cancellations": [
+        47451.6469041
+      ],
+      "native_stopped": [
+        47451.6569267,
+        47451.656936
+      ],
+      "recognized": [
+        "стоп"
+      ],
+      "submitted": [],
+      "evidence": [
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47450.9035746
+        },
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47450.9035746
+        },
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47450.9035746
+        },
+        {
+          "text": "стоп",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47450.9035746
+        }
+      ],
+      "errors": [],
+      "assistant_contains_control_words": false,
+      "audio_launch": 47448.1590568,
+      "ended": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": true
+    },
+    {
+      "case": 2,
+      "instruction": "Сказать: Найди погоду в Бишкеке",
+      "mode": "speakers",
+      "physical_device_confirmed": true,
+      "output": "Динамики (2- Realtek(R) Audio)",
+      "opened": 47465.4150819,
+      "cancellations": [
+        47469.9786972
+      ],
+      "native_stopped": [
+        47469.9881948,
+        47469.9881995,
+        47469.9882034
+      ],
+      "recognized": [
+        "найди погода выпечки"
+      ],
+      "submitted": [
+        "найди погода выпечки"
+      ],
+      "evidence": [
+        {
+          "text": "найди",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода в",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода в",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода в",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода в",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода в пищу",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода в пищу",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода выпечки",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода выпечки",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        },
+        {
+          "text": "найди погода выпечки",
+          "acoustic": "independent",
+          "stable": true,
+          "start": 47469.2041158
+        }
+      ],
+      "errors": [
+        "Потеря аудиокадров: текущая фраза отброшена. Сделайте паузу и повторите."
+      ],
+      "assistant_contains_control_words": false,
+      "audio_launch": 47466.4215623,
+      "ended": true,
+      "pcm_queue_empty": true,
+      "buffer_released": true,
+      "human_heard_output": true,
+      "human_behavior_confirmed": true
+    }
+  ]
+}

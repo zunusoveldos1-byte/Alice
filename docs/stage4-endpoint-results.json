@@ -1,0 +1,1580 @@
+{
+  "source": "Russian SAPI -> real Silero/Vosk, inserted within-phrase pauses; no microphone",
+  "aggregate": {
+    "250": {
+      "cases": 24,
+      "cut_or_split": 18
+    },
+    "300": {
+      "cases": 24,
+      "cut_or_split": 14
+    },
+    "350": {
+      "cases": 24,
+      "cut_or_split": 12
+    },
+    "adaptive_250_350": {
+      "cases": 24,
+      "cut_or_split": 12
+    },
+    "650_control": {
+      "cases": 24,
+      "cut_or_split": 0
+    }
+  },
+  "rows": [
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 160,
+      "policy": "250",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        2.976
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 160,
+      "policy": "300",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.04
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 160,
+      "policy": "350",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.072
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 160,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        2.976
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 160,
+      "policy": "650_control",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.392
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 256,
+      "policy": "250",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.6640000000000001,
+        3.072
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 256,
+      "policy": "300",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.136
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 256,
+      "policy": "350",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.168
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 256,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.072
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 256,
+      "policy": "650_control",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.488
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 320,
+      "policy": "250",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.6640000000000001,
+        3.136
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 320,
+      "policy": "300",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.728,
+        3.2
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 320,
+      "policy": "350",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.232
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 320,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.136
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 320,
+      "policy": "650_control",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.552
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 384,
+      "policy": "250",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.6640000000000001,
+        3.2
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 384,
+      "policy": "300",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.728,
+        3.2640000000000002
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 384,
+      "policy": "350",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.76,
+        3.2960000000000003
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 384,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.76,
+        3.2
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 384,
+      "policy": "650_control",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.616
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 512,
+      "policy": "250",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.6640000000000001,
+        3.3280000000000003
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 512,
+      "policy": "300",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.728,
+        3.392
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 512,
+      "policy": "350",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.76,
+        3.424
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 512,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.76,
+        3.3280000000000003
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 512,
+      "policy": "650_control",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.744
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 600,
+      "policy": "250",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.6640000000000001,
+        3.424
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 600,
+      "policy": "300",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.728,
+        3.488
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 600,
+      "policy": "350",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.76,
+        3.52
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 600,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "поставь таймер",
+        "на восемь минут"
+      ],
+      "finalized_at_s": [
+        1.76,
+        3.424
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Поставь таймер на восемь минут",
+      "pause_ms": 600,
+      "policy": "650_control",
+      "recognized_parts": [
+        "поставь таймер на восемь минут"
+      ],
+      "finalized_at_s": [
+        3.84
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 160,
+      "policy": "250",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.656
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 160,
+      "policy": "300",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.72
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 160,
+      "policy": "350",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.7520000000000002
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 160,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.656
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 160,
+      "policy": "650_control",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        3.072
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 256,
+      "policy": "250",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.6320000000000001,
+        2.7520000000000002
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 256,
+      "policy": "300",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.816
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 256,
+      "policy": "350",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.848
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 256,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.7520000000000002
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 256,
+      "policy": "650_control",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        3.168
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 320,
+      "policy": "250",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.6320000000000001,
+        2.816
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 320,
+      "policy": "300",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.696,
+        2.88
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 320,
+      "policy": "350",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.912
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 320,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        2.816
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 320,
+      "policy": "650_control",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        3.232
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 384,
+      "policy": "250",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.6320000000000001,
+        2.88
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 384,
+      "policy": "300",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.696,
+        2.944
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 384,
+      "policy": "350",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.728,
+        2.976
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 384,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.728,
+        2.88
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 384,
+      "policy": "650_control",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        3.2960000000000003
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 512,
+      "policy": "250",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.6320000000000001,
+        3.008
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 512,
+      "policy": "300",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.696,
+        3.072
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 512,
+      "policy": "350",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.728,
+        3.104
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 512,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.728,
+        3.008
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 512,
+      "policy": "650_control",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        3.424
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 600,
+      "policy": "250",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.6320000000000001,
+        3.136
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 600,
+      "policy": "300",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.696,
+        3.2
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 600,
+      "policy": "350",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.728,
+        3.232
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 600,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "найди погоду",
+        "в бишкеке"
+      ],
+      "finalized_at_s": [
+        1.728,
+        3.136
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Найди погоду в Бишкеке",
+      "pause_ms": 600,
+      "policy": "650_control",
+      "recognized_parts": [
+        "найди погоду в бишкеке"
+      ],
+      "finalized_at_s": [
+        3.552
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 160,
+      "policy": "250",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.008
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 160,
+      "policy": "300",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.072
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 160,
+      "policy": "350",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.104
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 160,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.072
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 160,
+      "policy": "650_control",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.424
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 256,
+      "policy": "250",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.104
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 256,
+      "policy": "300",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.168
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 256,
+      "policy": "350",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.2
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 256,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.104
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 256,
+      "policy": "650_control",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.52
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 320,
+      "policy": "250",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.856,
+        3.168
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 320,
+      "policy": "300",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.232
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 320,
+      "policy": "350",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.2640000000000002
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 320,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.168
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 320,
+      "policy": "650_control",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.584
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 384,
+      "policy": "250",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.856,
+        3.232
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 384,
+      "policy": "300",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.92,
+        3.2960000000000003
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 384,
+      "policy": "350",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.952,
+        3.3280000000000003
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 384,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.952,
+        3.232
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 384,
+      "policy": "650_control",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.648
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 512,
+      "policy": "250",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.856,
+        3.36
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 512,
+      "policy": "300",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.92,
+        3.424
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 512,
+      "policy": "350",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.952,
+        3.456
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 512,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.952,
+        3.36
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 512,
+      "policy": "650_control",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.7760000000000002
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 600,
+      "policy": "250",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.856,
+        3.424
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 600,
+      "policy": "300",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.92,
+        3.488
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 600,
+      "policy": "350",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.952,
+        3.52
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 600,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "напомни завтра",
+        "купить молоко"
+      ],
+      "finalized_at_s": [
+        1.952,
+        3.424
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Напомни завтра купить молоко",
+      "pause_ms": 600,
+      "policy": "650_control",
+      "recognized_parts": [
+        "напомни завтра купить молоко"
+      ],
+      "finalized_at_s": [
+        3.84
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 160,
+      "policy": "250",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.032
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 160,
+      "policy": "300",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.096
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 160,
+      "policy": "350",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.128
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 160,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.032
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 160,
+      "policy": "650_control",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.448
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 256,
+      "policy": "250",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.128
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 256,
+      "policy": "300",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.192
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 256,
+      "policy": "350",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.224
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 256,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.128
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 256,
+      "policy": "650_control",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.5440000000000005
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 320,
+      "policy": "250",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.016,
+        4.192
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 320,
+      "policy": "300",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.256
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 320,
+      "policy": "350",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.288
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 320,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.192
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 320,
+      "policy": "650_control",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.6080000000000005
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 384,
+      "policy": "250",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.016,
+        4.256
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 384,
+      "policy": "300",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.08,
+        4.32
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 384,
+      "policy": "350",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.112,
+        4.352
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 384,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.112,
+        4.256
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 384,
+      "policy": "650_control",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.672
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 512,
+      "policy": "250",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.016,
+        4.384
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 512,
+      "policy": "300",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.08,
+        4.448
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 512,
+      "policy": "350",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.112,
+        4.48
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 512,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.112,
+        4.384
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 512,
+      "policy": "650_control",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.8
+      ],
+      "cut_or_split": false
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 600,
+      "policy": "250",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.016,
+        4.5120000000000005
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 600,
+      "policy": "300",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.08,
+        4.5760000000000005
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 600,
+      "policy": "350",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.112,
+        4.6080000000000005
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 600,
+      "policy": "adaptive_250_350",
+      "recognized_parts": [
+        "скажи пожалуйста",
+        "сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        2.112,
+        4.5120000000000005
+      ],
+      "cut_or_split": true
+    },
+    {
+      "query": "Скажи пожалуйста сколько будет два плюс два",
+      "pause_ms": 600,
+      "policy": "650_control",
+      "recognized_parts": [
+        "скажи пожалуйста сколько будет два плюс два"
+      ],
+      "finalized_at_s": [
+        4.928
+      ],
+      "cut_or_split": false
+    }
+  ],
+  "decision": "Keep configured endpoint for correctness; fast candidates are experiments, not product defaults"
+}

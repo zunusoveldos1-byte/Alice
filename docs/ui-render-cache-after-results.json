@@ -1,0 +1,11 @@
+{
+  "frames": 120,
+  "wall_ms": 1814.7743999998056,
+  "process_cpu_ms": 2218.75,
+  "full_content_renders": 0,
+  "text_metric_builds": 0,
+  "animation_advanced": true,
+  "microphone_opened": false,
+  "llm_used": false,
+  "qt_platform": "offscreen"
+}

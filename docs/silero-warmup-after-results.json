@@ -1,0 +1,26 @@
+{
+  "mode": "warmup",
+  "voice": "xenia",
+  "cpu_threads": 2,
+  "text": "Таймер установлен на восемь минут.",
+  "playback": false,
+  "llm_used": false,
+  "outbound_network_blocked": true,
+  "background_warmup_ms": 13956.987900000968,
+  "repeat_warmup_ms": 0.37399999928311445,
+  "requests": [
+    {
+      "request_to_pcm_ms": 123.03979999887815,
+      "audio_ms": 1887.5
+    },
+    {
+      "request_to_pcm_ms": 81.70410000093398,
+      "audio_ms": 1887.5
+    },
+    {
+      "request_to_pcm_ms": 68.52710000021034,
+      "audio_ms": 1887.5
+    }
+  ],
+  "model_initializations": 1
+}

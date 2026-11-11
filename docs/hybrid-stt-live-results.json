@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-31",
+  "backend": "hybrid",
+  "whisper_model": "small",
+  "device": "cpu",
+  "compute_type": "int8",
+  "method": "Actual Alice launched with hybrid; user confirmed final text in chat",
+  "phrase": "Найди погоду в Бишкеке",
+  "user_confirmed_correct_final_text": true,
+  "audio_saved": false,
+  "same_pcm_vosk_whisper_comparison": false,
+  "general_accuracy_proven": false,
+  "audio_drop_errors_observed_in_session": true
+}
